@@ -93,3 +93,13 @@ $ npx clasp clone [scriptId]
 .git/**
 node_modules/**
 ```
+
+## Push & Pull
+
+```sh
+$ npx clasp push
+```
+
+```sh
+$ npx clasp pull
+```
