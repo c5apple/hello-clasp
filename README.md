@@ -9,6 +9,10 @@ $ npx clasp --version
 
 ## Login
 
+Google Apps Script APIを有効にしておく
+
+![GASをオンにする](docs/images/README/gas_on.png)
+
 ```sh
 $ npx clasp login
 ```
