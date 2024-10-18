@@ -55,3 +55,10 @@ $ npx clasp create sample
 }
 ```
 
+## Clone
+
+既存プロジェクトが存在する場合
+
+```sh
+$ npx clasp clone [scriptId]
+```
