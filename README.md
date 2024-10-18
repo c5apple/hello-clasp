@@ -30,3 +30,28 @@ $ npx clasp login
 ```sh
 $ ls ~/.clasprc.json
 ```
+
+## Create
+
+```sh
+$ npx clasp create sample
+```
+
+![プロジェクト作成](docs/images/README/create_console.png)
+
+成功すると、`.clasp.json` と `appsscript.json` が出来上がる。
+
+![プロジェクト作成(ブラウザ)](docs/images/README/create_browser.png)
+
+### .clasp.json
+
+```json
+{
+    "scriptId": "XXX",
+    "rootDir": "/XXX/hallo-clasp",
+    "parentId": [
+        "XXX"
+    ]
+}
+```
+
