@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "node esbuild.mjs",
-    "push": "clasp push",
+    "push": "clasp push && clasp version",
     "deploy": "npm run build && npm run push"
   },
   "devDependencies": {
