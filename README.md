@@ -56,7 +56,11 @@ $ npx clasp create sample
 ```
 
 `rootDir` は同期対象のフォルダ。  
-相対パスで `src/` などを指定しておくといいだろう。
+相対パスで `src` などを指定しておくといいだろう。
+
+```sh
+$ npx clasp create sample --routeDir src
+```
 
 同期対象ファイルを確認する場合
 
