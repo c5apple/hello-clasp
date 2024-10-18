@@ -48,12 +48,22 @@ $ npx clasp create sample
 ```json
 {
     "scriptId": "XXX",
-    "rootDir": "/XXX/hallo-clasp",
+    "rootDir": "src",
     "parentId": [
         "XXX"
     ]
 }
 ```
+
+`rootDir` は同期対象のフォルダ。  
+相対パスで `src/` などを指定しておくといいだろう。
+
+同期対象ファイルを確認する場合
+
+```sh
+$ npx clasp status
+```
+
 
 ## Clone
 
