@@ -72,3 +72,24 @@ $ npx clasp status
 ```sh
 $ npx clasp clone [scriptId]
 ```
+
+## .claspignore
+
+除外したいファイルがあれば、`.claspignore` に書く。  
+デフォルトがあるので普通にする分には不要の気がする。
+
+```
+# ignore all files…
+**/**
+
+# except the extensions…
+!appsscript.json
+!**/*.gs
+!**/*.js
+!**/*.ts
+!**/*.html
+
+# ignore even valid files if in…
+.git/**
+node_modules/**
+```
