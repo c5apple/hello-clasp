@@ -107,3 +107,11 @@ $ npx clasp push
 ```sh
 $ npx clasp pull
 ```
+
+## Open
+
+ブラウザでGASを開くには
+
+```sh
+$ npx clasp open
+```
