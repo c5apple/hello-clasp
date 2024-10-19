@@ -1,11 +1,9 @@
 import { myFunction } from './無題';
 
-function main() {
-  myFunction();
-}
-
 // globalに突っ込むおまじないが必要
-(global as any).main = main;
+(global as any).main = () => {
+  myFunction();
+};
 /*
 最終的には以下のようになる
 
